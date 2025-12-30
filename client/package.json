@@ -2,7 +2,7 @@
   "name": "frontend",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://Mehsenn03.github.io/ACS",
+  "homepage": "https://Mehsenn03.github.io/ACSB",
   "dependencies": {
     "bootstrap": "^5.3.8",
     "react": "^19.0.0",
@@ -34,3 +34,4 @@
     "gh-pages": "^6.3.0"
   }
 }
+
