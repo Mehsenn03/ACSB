@@ -23,7 +23,7 @@ const PORT = process.env.PORT || 10000;
 
 const allowedOrigins = [
   'http://localhost:3000', 
-  'https://mehsenn03.github.io/ACS' 
+  'https://mehsenn03.github.io/ACSB' 
 ];
 
 app.use(cors({
@@ -45,4 +45,5 @@ app.get('/health', (req, res) => {
 app.listen(PORT, () => {
   console.log(`Server is running on port ${PORT}`);
   console.log(`Allowed CORS origins: ${allowedOrigins.join(', ')}`);
+
 });
